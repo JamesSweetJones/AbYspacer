@@ -1,13 +1,16 @@
 # AbYspacer
 Programme to generate numbered antibody sequences with 'X' to denote spaces in the numbering scheme. Python script backs onto AbNum (http://www.bioinf.org.uk/abs/abnum/) to retrieve numbering.
-Available for Kabat, Chothia and Martin (Enhanced Chothia) schemes.
+Available for Kabat, Chothia and Martin (Enhanced Chothia) schemes. Ideal for machine learning encoding as sequences are all the same length.
 
 Author: James Sweet-Jones
 Institute: University College London
 
-Usage: python abYspacer -i path/to/file -s 'c'
+Usage: 
+
+python abYspacer -i path/to/file -s 'c'
 
 Flags:
+
   -h, --help                      show this help messange and exit
   
   -i INPUT, --input INPUT         the path to paired fasta file
