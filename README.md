@@ -9,8 +9,11 @@ Usage: python abYspacer -i path/to/file -s 'c'
 
 Flags:
   -h, --help                      show this help messange and exit
+  
   -i INPUT, --input INPUT         the path to paired fasta file
+  
   -o OUTPUT, --output OUTPUT      string of output fasta file
+  
   -s SCHEME, --scheme SCHEME      k/kabat, c/chothia, m/martin
   
 Input: a paired antibody fasta file with heavy chains and light chains notated in fasta headings.
